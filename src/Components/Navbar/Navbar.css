@@ -1,0 +1,14 @@
+.btnSearch{
+    background: linear-gradient(264deg,rgb(217, 219, 104) 27%, rgb(255, 229, 112) 100%);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 140px;
+
+}
+.nav-link, #navbartxt{
+    color: white;
+}
+.dropdown-item{
+    background:transparent;
+}
