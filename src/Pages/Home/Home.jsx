@@ -70,15 +70,13 @@ export default function Home({ data }) {
                     <h2 id="titreCarousel">Retrouvez ici les produits les plus appréciés:</h2>
                     <div id="ancre" style={{display:'flex', flexWrap:'wrap', justifyContent:'center', gap:'15%'}}>
                     {data && 
-                        data
-                            .filter(element => element.rating && element.rating.rate >= 4)
-                            .map((element, index) => (
+                        data.filter(element => element.rating.rate >= 4).map((element, index) => (
                                 <div key={element.id || index} className="card" style={{width: '18rem', background:'transparent', color:'white', border:'none', textAlign:'center'}}>
                                     <img style={{height:'300px', }} src={element.image} className="card-img-top" alt="..."/>
                                     <div style={{height:'470px'}} className="card-body">
-                                        <p className="card-text">Description: <br />{element.description}</p>
-                                        <p>{element.price}€</p>
-                                        <p>Notes:{element.rating.rate}</p>
+                                        <p className="card-text"><strong>Description:</strong> <br />{element.description}</p>
+                                        <p id="txtprice">{element.price}&#160;€</p>
+                                        <p id="txtrate">Notes:&#160;{element.rating.rate}&#11088;</p>
                                     </div>
                                 </div>
                             ))

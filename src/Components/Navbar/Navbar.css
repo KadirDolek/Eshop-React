@@ -6,6 +6,11 @@
     width: 140px;
 
 }
+.navbar-toggler{
+    background: linear-gradient(27deg,rgba(125, 110, 110, 1) 21%, rgba(232, 232, 232, 1) 99%);
+    border: none;
+    box-shadow: 1px 1px 4px 3px rgba(255, 255, 255, 0.774);
+}
 .nav-link, #navbartxt{
     color: white;
 }

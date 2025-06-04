@@ -11,7 +11,6 @@ export default function Navbar(){
             <nav className="navbar navbar-expand-lg bg-body-transparent">
             <div className="container-fluid justify-content-center">
                 <button
-                    style={{backgroundColor:'white'}}
                     className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"

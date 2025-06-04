@@ -19,6 +19,7 @@ export default function Product({data}){
 
     return(
         <>
+        <Navbar/>
             <form 
                 style={{width:'350px', marginLeft:'auto', marginRight:'auto', marginBottom:'20px', marginTop:'20px'}} 
                 className="d-flex" 
@@ -50,7 +51,6 @@ export default function Product({data}){
                         </div>
                     </div>
                 ))}
-
             </div>
         </>
     )

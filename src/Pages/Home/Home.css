@@ -68,6 +68,34 @@ h5{
     color: white;
     font-weight: bold;
 }
+.card{
+    margin-bottom: 2.5%;
+}
+.card-img-top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-body{
+    border: solid 1px white;
+    box-shadow: 0px 3px 3px 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: auto !important;
+    background: linear-gradient(27deg,rgba(125, 110, 110, 1) 21%, rgba(232, 232, 232, 1) 99%);
+}
+.card-text{
+    min-height: 375px;
+}
+.card-text p{
+    font-weight: bold;
+}
+#txtrate{
+    font-weight: bold;
+}
+#txtprice{
+    font-weight: bold;
+}
+
 
 @media (max-width: 768px) {
     #CarouselContainer {
