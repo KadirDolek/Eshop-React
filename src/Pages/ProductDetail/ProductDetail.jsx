@@ -10,7 +10,7 @@ export default function ProductDetail({ data }) {
     return (
        
 
-        <div style={{textAlign:'center'}}>
+        <div style={{textAlign:'center', height:'100vh'}}>
              <div style={{ color: 'white', padding: '20px'}}>
                 <h2 style={{marginBottom:'5%', marginTop:'5%'}}>{product.title}</h2>
                 <img style={{maxHeight:'400px', width:'300px' , marginBottom:'5%'}} src={product.image} alt={product.title} />
